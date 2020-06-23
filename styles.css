@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/roboto-slab-v11-latin-regular.eot');
+  src: local(''),
+    url('../fonts/roboto-slab-v11-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/roboto-slab-v11-latin-regular.woff2') format('woff2'),
+    url('./fonts/roboto-slab-v11-latin-regular.woff') format('woff'),
+    url('./fonts/roboto-slab-v11-latin-regular.ttf') format('truetype'),
+    url('./fonts/roboto-slab-v11-latin-regular.svg#RobotoSlab') format('svg');
+}
+
+@font-face {
+  font-family: 'Droid Serif Italic';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/Droid-Serif-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Arizonia-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Arizonia-Regular.ttf');
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 940px;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navigation {
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 121px;
+}
+
+.heading {
+  margin-bottom: 100px;
+}
+
+.logo {
+  font-family: 'Arizonia-Regular';
+  color: #fed136;
+  text-transform: none;
+  font-size: 26px;
+}
+
+.site-logo::first-letter {
+  text-transform: uppercase;
+}
+
+.menu {
+  width: 490px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-item:hover .menu-item-link {
+  color: #fed136;
+}
+
+.heading {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 79px;
+}
+.title,
+.caption,
+.headline {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.title {
+  color: #fff;
+}
+
+.subtitle,
+.text {
+  font-family: 'roboto slab';
+  color: #777777;
+}
+
+.caption {
+  font-size: 18px;
+  text-transform: none;
+  margin-bottom: 12px;
+  padding-top: 25px;
+}
+
+.subtitle {
+  font-family: 'Droid Serif Italic';
+  font-size: 16px;
+}
+
+.text {
+  font-size: 14px;
+  text-transform: none;
+}
+
+.advantage-item {
+  display: block;
+  text-align: center;
+  width: 280px;
+}
+
+.advantage {
+  width: 921px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advantage-item::before {
+  width: 74px;
+  height: 73px;
+  content: '';
+  margin: 0 auto;
+  display: block;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.basket::before {
+  background-image: url('./icon/icon-basket.png');
+}
+
+.icon-laptop::before {
+  background-image: url('./icon/icon-laptop.png');
+}
+
+.icon-locked::before {
+  background-image: url('./icon/Icon-Locked.png');
+}
+
+.why-choose-us-page {
+  margin-bottom: 122px;
+}
+
+.cotact-us-page {
+  background-color: #222222;
+  min-height: 60vh;
+
+  padding-top: 100px;
+}
+
+.contact-us-action {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-send-message {
+  display: block;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  width: 240px;
+  height: 65px;
+  background-color: #fed136;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.contact-form_input {
+  width: 455px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+.contact-form_input::placeholder {
+  text-transform: uppercase;
+  padding-left: 20px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #bbbbbb;
+}
+
+.contact-form_input:required:focus:valid:not(:placeholder-shown) {
+  border: 1px solid green;
+}
+
+.contact-form_input:required:focus:invalid:not(:placeholder-shown) {
+  border: 1px solid red;
+}
+
+.contact-form_input:focus {
+  outline: none;
+}
+
+.wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 942px;
+  height: 267px;
+}
+
+.form-list-item {
+  margin-bottom: 27px;
+  margin-right: 30px;
+}
+
+.contact-us-form {
+  position: relative;
+}
+
+.message {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-left: 30px;
+
+  width: 454px;
+  height: 208px;
+  border-radius: 2px;
+}
+
+.message::placeholder {
+  padding: 20px;
+}
+
+.cotact-us-page {
+  position: relative;
+}
+
+.cotact-us-page {
+  background-image: url('./img/Map\ Image.png');
+  background-position: right top 150px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
