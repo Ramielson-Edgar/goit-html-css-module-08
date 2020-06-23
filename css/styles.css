@@ -21,14 +21,14 @@
   font-family: 'Droid Serif Italic';
   font-style: normal;
   font-weight: 300;
-  src: url('./fonts/Droid-Serif-Italic.ttf');
+  src: url('../fonts/Droid-Serif-Italic.ttf');
 }
 
 @font-face {
   font-family: 'Arizonia-Regular';
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/Arizonia-Regular.ttf');
+  src: url('../fonts/Arizonia-Regular.ttf');
 }
 
 ul,
@@ -160,15 +160,15 @@ body {
 }
 
 .basket::before {
-  background-image: url('./icon/icon-basket.png');
+  background-image: url('../icon/icon-basket.png');
 }
 
 .icon-laptop::before {
-  background-image: url('./icon/icon-laptop.png');
+  background-image: url('../icon/icon-laptop.png');
 }
 
 .icon-locked::before {
-  background-image: url('./icon/Icon-Locked.png');
+  background-image: url('../icon/Icon-Locked.png');
 }
 
 .why-choose-us-page {
@@ -265,7 +265,7 @@ body {
 }
 
 .cotact-us-page {
-  background-image: url('./img/Map\ Image.png');
+  background-image: url('../img/Map\ Image.png');
   background-position: right top 150px;
   background-repeat: no-repeat;
   background-size: auto;
