@@ -270,3 +270,7 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
 }
+
+.contact-form_input {
+  resize: none;
+}
