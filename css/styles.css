@@ -203,15 +203,17 @@ body {
 }
 
 .contact-form_input {
-  width: 455px;
+  display: block;
+  width: 445px;
   height: 50px;
   border: 1px solid #cccccc;
   border-radius: 2px;
+  padding-left: 10px;
 }
 
 .contact-form_input::placeholder {
   text-transform: uppercase;
-  padding-left: 20px;
+
   font-family: 'Montserrat';
   font-weight: bold;
   color: #bbbbbb;
@@ -246,19 +248,20 @@ body {
 }
 
 .message {
+  box-sizing: border-box;
   position: absolute;
   top: 0;
   right: 0;
-  margin-left: 30px;
-
   width: 454px;
   height: 208px;
   border-radius: 2px;
-}
-
-.message::placeholder {
+  border-top: 20px;
   padding: 20px;
 }
+
+/* .message::placeholder {
+  padding-top: 20px;
+} */
 
 .cotact-us-page {
   position: relative;
