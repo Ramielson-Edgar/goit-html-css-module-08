@@ -129,8 +129,9 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
   z-index: 2;
+  padding: 0px;
 }
 
 .control {
@@ -154,7 +155,6 @@ body {
 /* CALL TO ACTION */
 
 .headline,
-.subtitle,
 .btn {
   font-size: 30px;
   font-family: 'Montserrat';
@@ -166,9 +166,16 @@ body {
 }
 
 .subtitle {
-  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 218px;
+  font-family: 'roboto';
+  font-size: 18px;
   text-transform: none;
   font-weight: lighter;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .btn {

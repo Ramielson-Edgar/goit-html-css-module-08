@@ -51,6 +51,26 @@
   .telegramm_partner {
     order: 4;
   }
+  .subtitle {
+    width: 404px;
+    font-size: 23px;
+  }
+  .caption {
+    font-size: 24px;
+  }
+  .heading {
+    width: 501px;
+    padding: 0;
+    transform: translate(-50%, -75%);
+  }
+
+  .headline {
+    width: 532px;
+    font-size: 52px;
+  }
+  .btn {
+    width: 220px;
+  }
 
   @media (min-width: 768px) and (max-width: 959px) {
     .navigation {
@@ -81,11 +101,6 @@
       display: flex;
       flex-wrap: row;
     }
-    .heading {
-      width: 480px;
-      font-size: 52px;
-      padding: 0;
-    }
 
     .sing_up_form {
       display: flex;
@@ -111,6 +126,22 @@
 
     .logo {
       width: 177px;
+    }
+    .subtitle {
+      font-size: 24px;
+    }
+
+    .btn {
+      width: 225px;
+    }
+    .btn_ghost_button {
+      width: 192px;
+    }
+    .headline {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      width: 532px;
     }
   }
 }
