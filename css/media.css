@@ -1,0 +1,116 @@
+@media (min-width: 768px) {
+  .container {
+    display: block;
+    width: 492px;
+    margin: 0 auto;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    width: 660px;
+    padding: 0px 44px;
+  }
+
+  .sing_up_form {
+    width: 148px;
+    display: flex;
+    align-items: center;
+    order: 2;
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  .caption {
+    margin-bottom: 32px;
+  }
+
+  .our_team_list {
+    width: 492px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .team_list_item {
+    width: 236px;
+  }
+
+  .tv_partner {
+    order: 1;
+  }
+
+  .chemistry_partner {
+    order: 3;
+  }
+
+  .coffee_partner {
+    order: 2;
+  }
+  .telegramm_partner {
+    order: 4;
+  }
+
+  @media (min-width: 768px) and (max-width: 959px) {
+    .navigation {
+      padding: 0px 44px;
+    }
+  }
+
+  @media (min-width: 960px) {
+    .container {
+      width: 940px;
+      padding: 0px;
+    }
+
+    .header-page {
+      width: 940px;
+    }
+
+    .navigation {
+      display: flex;
+      margin: 0 auto;
+      flex-direction: row;
+      width: 940px;
+      padding: 0px;
+    }
+    .our_team_list {
+      width: 940px;
+
+      display: flex;
+      flex-wrap: row;
+    }
+    .heading {
+      width: 480px;
+      font-size: 52px;
+      padding: 0;
+    }
+
+    .sing_up_form {
+      display: flex;
+      justify-content: space-between;
+      width: 180px;
+    }
+
+    .main {
+      width: 940px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .meet_our_team {
+      width: 940px;
+    }
+    .team_list_item {
+      width: 220px;
+    }
+
+    .btn_ghost_button {
+      width: 190px;
+    }
+
+    .logo {
+      width: 177px;
+    }
+  }
+}
